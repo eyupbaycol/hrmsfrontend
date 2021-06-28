@@ -8,14 +8,15 @@ function Header() {
    
     return (
        <Segment fixed="top" >
+         <Container>
         <Menu secondary >
             <Menu.Item>
             <Icon color="purple" name="google wallet" size='big' /> 
             <a color="black">JOBHUNTER</a>
             </Menu.Item>    
-            <Menu.Item>
+            {/* <Menu.Item>
             <Input icon='search' placeholder='Search...'/>
-            </Menu.Item>
+            </Menu.Item> */}
           <Menu.Item
            position="right"
             color="blue"
@@ -61,6 +62,7 @@ function Header() {
                 </Dropdown>
          </Menu.Item>
         </Menu>
+        </Container>
         </Segment>
     )
 }
